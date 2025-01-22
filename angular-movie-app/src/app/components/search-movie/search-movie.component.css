@@ -1,0 +1,35 @@
+.images {
+    background-image: url('../../../../public/premium_photo-1677186163047-377601d6a32b.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: auto;
+    min-height: 60vh;
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+@media (max-width: 639px){
+
+    .smart-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        margin-top: 5rem;
+    }
+
+    .smart-p{
+        padding: 0 2rem;
+    }
+
+    .smart-container img{
+       margin: 0 auto;
+    }
+}
+
+
+.hero-image{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    object-position: 100%;
+}
